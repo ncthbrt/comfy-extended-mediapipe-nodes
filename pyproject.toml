@@ -16,7 +16,8 @@ classifiers = []
 dependencies = [
     "numpy",
     "torch",
-    "pillow"
+    "pillow",
+    "av"
 ]
 
 
@@ -86,3 +87,7 @@ select = [
 
 [tool.ruff.lint.flake8-quotes]
 inline-quotes = "double"
+
+
+[tool.pyright]
+reportMissingTypeArgument = "hint"
