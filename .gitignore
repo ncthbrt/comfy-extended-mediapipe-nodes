@@ -102,6 +102,7 @@ cookiecutter-pypackage-env/
 # Frontend extension
 node_modules/
 .env
+.venv
 .env.local
 .env.development.local
 .env.test.local

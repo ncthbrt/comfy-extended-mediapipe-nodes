@@ -1,6 +1,5 @@
 import torch
 
-from .nodes_images import SaveImageAdvancedDestructive
 from .nodes_mediapipe import LoadMediaPipeExtendedFaceLandmarker, MediaPipeExtendedFaceMask
 
 
@@ -31,7 +30,6 @@ NODE_CLASS_MAPPINGS = {
     "ImageMinMax": ImageMinMax,
     "MediaPipeExtendedFaceMask": MediaPipeExtendedFaceMask,
     "LoadMediaPipeExtendedFaceLandmarker": LoadMediaPipeExtendedFaceLandmarker,
-    "SaveImageAdvancedDestructive": SaveImageAdvancedDestructive,
 }
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
@@ -39,5 +37,4 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "ImageMinMax": "Image Min/Max",
     "MediaPipeExtendedFaceMask": "Mediapipe Extended Face Mask",
     "LoadMediaPipeExtendedFaceLandmarker": "Load Mediapipe Extended Face Landmarker",
-    "SaveImageAdvancedDestructive": "Save Image (Advanced+Destructive)",
 }
